@@ -1,0 +1,18 @@
+
+//  Write a Java program that takes a number as input and print
+class Multiplication 
+{
+
+	public static void main(String[] args) 
+	{
+		//  Write a Java program that takes a number as input and print
+		//its multiplication table upto 10.
+		System.out.println(".......Multiplication Tables.......");
+		int i,x=10;
+		for(i=1;i<=x;i++)
+		{
+			System.out.println( x + "*" + i +"=" + (x*i));
+		}
+	
+	}
+}
