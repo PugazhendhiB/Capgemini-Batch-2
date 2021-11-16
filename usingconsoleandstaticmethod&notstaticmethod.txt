@@ -1,0 +1,23 @@
+public class consolepage 
+{
+	static int main(int x,int y)
+	{
+		return x+y;
+	}
+	public void pro()
+	{
+		int b=20,c=40;
+		int d=b*c;
+		System.out.println(d);
+	}
+
+	public static void main(String[] args) 
+	{
+		int a=0;
+		System.out.println(a);
+		System.out.println(main(10,20));
+		consolepage obj=new consolepage();
+		obj.pro();
+	}
+
+}
