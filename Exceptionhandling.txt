@@ -1,0 +1,23 @@
+class Exceptionhandling
+{
+
+
+	public static void main(String[] args)
+	{
+		try{
+		     int[] a= {1,2,3,4};
+		     System.out.println(a[5]);
+		   }
+		catch (Exception e) 
+		
+		{
+			
+		    System.out.println("print the catch the statments....");
+		}
+		finally 
+		{
+			System.out.println("Report the statments.....");
+		}
+	}
+
+}
