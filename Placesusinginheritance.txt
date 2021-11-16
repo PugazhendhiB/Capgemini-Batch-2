@@ -1,0 +1,80 @@
+/*Activity: create one superclass Hillstations and three subclasses
+Manali, Mussoorie, Gulmarg. Subclasses extend the superclass and 
+override its location() and famousfor() method. We will call the
+location() and famousfor() method by the Parent class’, i.e. Hillstations class*/
+
+class Hillstations //superclass
+{ 
+	
+	void location()
+	{
+		System.out.println("Yelagiri Hillstations ");
+	}
+	void famousfor()
+	{
+		System.out.println("Famous place in Yelagiri is Punganoor Lake Park...");
+	}
+}
+class Manali extends Hillstations //1st subclass
+{ 
+	void location() //overiding the Hillstaion Loaction
+	{
+		System.out.println("Kullu hillstation ");
+	}
+	void famousfor()//overriding the Hillstaion Famousfor
+	{
+		System.out.println(" Great Himalayan National Park");
+	}
+}
+
+class Mussoorie extends Hillstations //2nd subclass
+{ 
+	void location() //overiding the Hillstaion Loaction
+	{
+		System.out.println("Queen of the Hillstation ");
+	}
+	void famousfor()//overriding the Hillstaion Famousfor
+	{
+		System.out.println(" Kempty Falls ");
+	}
+}
+
+class  Gulmarg extends Hillstations //3rd subclass 
+{ 
+	void location() //overiding the Hillstaion Loaction
+	{
+		System.out.println("Adventure Sports");
+	}
+	void famousfor()//overriding the Hillstaion Famousfor
+	{
+		System.out.println("Gulmarg Biosphere Reserve");
+	}
+}
+
+public class Places {
+
+	public static void main(String[] args) {
+		System.out.println("........superclass Printing Statments.......");
+		Hillstations H=new Hillstations();
+		H.location();
+		H.famousfor();
+		System.out.println("........subclass1 Printing Statments.......");
+		
+		Hillstations M= new Manali();
+		M.location();
+		M.famousfor();
+		System.out.println("........subclass2 Printing Statments.......");
+		
+		Hillstations Mu= new Mussoorie();
+		Mu.location();
+		Mu.famousfor();
+		System.out.println("........subclass3 Printing Statments.......");
+		
+		Hillstations G= new Gulmarg();
+		G.location();
+		G.famousfor();
+		
+		
+	}
+
+}
