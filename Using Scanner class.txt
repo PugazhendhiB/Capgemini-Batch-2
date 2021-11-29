@@ -1,0 +1,38 @@
+import java.util.Scanner;
+public class Runtimecomplier {
+
+	public static void main(String[] args) 
+	{
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Enter the Name:");
+		String name=scanner.next();
+		
+		System.out.println("Enter the id:");
+		int id=scanner.nextInt();
+		
+		System.out.println("Enter your age:");
+		int age=scanner.nextInt();
+		
+		System.out.println("Enter your MobileNumber:");
+		 Long mobilenumber=scanner.nextLong();
+		
+		System.out.println("Enter your CompanyName:");
+		String companyname=scanner.next();
+		
+		System.out.println("Enter your JobRole:");
+		String jobrole=scanner.next();
+
+		System.out.println("**********************************");
+		
+		System.out.println("Your Name is:"+ name);
+		System.out.println("Your ID is:"+ id);
+		System.out.println("Your AGE is:"+ age);
+		System.out.println("Your MOBILENUMBER is:"+ mobilenumber);
+		System.out.println("Your COMPANY is:"+ companyname);
+		System.out.println("Your JOBROLE is:"+ jobrole);
+		
+		System.out.println("***********************************");
+		
+	}
+
+}
